@@ -1,0 +1,424 @@
+html {
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+body {
+    font-family: 'Roboto', Helvetica, Arial, san-serif;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+h1 {
+    margin-top: 15px;
+}
+
+h2 {
+    margin: 5px 0 5px 0;
+    font-weight: 400;
+    padding: 0;
+}
+
+h3 {
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+h4 {
+    color: purple;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.sidebar {
+    width: 23%;
+    float: left;
+    //padding: 15px 15px 0 30px;
+    height: 100%;
+}
+
+.news_sidebar {
+    width: 17%;
+    float: right;
+    padding: 15px 15px 0 30px;
+    padding-right: 30px;
+    height: 100%;
+}
+
+.sidebar img {
+    padding-top: 30px;
+    padding-bottom: 10px; 
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.news_text {
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 1em;
+}
+
+.news_text_hidden {
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 1em;
+    display: none;
+}
+
+.subtitle {
+    font-weight: 320;
+    font-size: 20px;
+}
+
+.contact_subtitle {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.news_subtitle {
+    font-weight: 400;
+}
+
+.topbar {
+    display: block;
+    width: 100%;
+    height: 90px;
+    margin-left: 25%;
+    padding: 15px 0 0 15px;
+}
+
+.topbar ul {
+    list-style: none;
+    margin: 0;
+}
+
+.topbar ul li {
+    display: block;
+    float: left;
+    margin-right: 50px;
+    font-size: 22px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    color: #ab425f;
+}
+
+.topbar ul li:hover {
+    color: purple;
+    cursor: pointer;
+}
+
+.topbar li.selected {
+    border-bottom: 1px solid #ab425f;
+}
+
+.maintext {
+    display: block;
+    margin-left: 23%;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 300;
+    width: 60%;
+    border-left:1px solid #000;
+}
+
+.maintext h1 {
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.maintext b {
+    font-weight: 400;
+}
+
+.maintext a {
+    color: #ab425f;
+    text-decoration: none;
+}
+
+.maintext a:hover {
+    cursor: pointer;
+    color: purple;
+}
+
+.research_list ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 30px;
+}
+
+.research_list ul li {
+    margin-bottom: 20px;
+    max-width: 95%;
+}
+
+.research_list .content {
+    font-weight: 300;
+}
+
+.research_list .title {
+    font-weight: 500;
+}
+
+.research_list .tagcell {
+    width: 55px;
+    vertical-align: top;
+}
+
+.research_list .tag {
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    width: 35px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.research_list .dot {
+    height: 40px;
+    width: 40px;
+    background-color: #11b;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.research_list .conference {
+    background-color: #0233d1;
+}
+
+.research_list .journal {
+    background-color: #e6233d;
+}
+
+.research_list .bookchapter {
+    background-color: #ff8c00;
+    
+}
+
+.research_list .book {
+    background-color: #518100;
+    
+}
+.research_list .award {
+    background-color: #000000;
+    
+}
+
+.research_list .graduation {
+    background-color: #11d700;
+    
+}
+
+.research_list .working {
+    background-color: #606b70;
+}
+
+.ed_list th {
+    font-weight: 300;
+}
+
+.ed_list .title {
+    font-weight: 400;
+}
+
+.ed_list .year {
+    font-weight: 300;
+    padding: 10px;
+    color: white;
+    background-color: #41ab8d;
+    height: 18px;
+    line-height: 18px;
+    margin-right: 10px;
+    font-weight: 400;
+    width: 40px;
+    text-align: center;
+}
+
+.ed_list .year2 {
+    font-weight: 300;
+    padding: 10px;
+    color: white;
+    background-color: #724673;
+    height: 18px;
+    line-height: 18px;
+    margin-right: 10px;
+    font-weight: 400;
+    width: 40px;
+    text-align: center;
+}
+
+.ed_list .year3 {
+    font-weight: 300;
+    padding: 10px;
+    color: white;
+    background-color: #9f8546;
+    height: 18px;
+    line-height: 18px;
+    margin-right: 10px;
+    font-weight: 400;
+    width: 40px;
+    text-align: center;
+}
+
+.ed_list .blankyear {
+    padding: 10px;
+    margin-right: 10px;
+    width: 40px;
+}
+
+.ed_list ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.ed_list ul li {
+    margin-bottom: 20px;
+}
+
+.ed_list ul li.blankyearlist {
+    margin-bottom: 5px;
+}
+
+.contact_list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact_list ul li {
+    display: block;
+    height: 90px;;
+    padding: 15px;
+}
+
+.contact_list img {
+    float: left;
+    margin-right: 20px;
+}
+
+/***************************************/
+/***************************************/
+/***********SCRIPTS FOR IMAGES**********/
+/***************************************/
+/***************************************/
+ /* Style the Image Used to Trigger the Modal */
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.imgFloat{
+    float: left;
+    margin-right:1rem;
+}
+/***************************************/
+/***************************************/

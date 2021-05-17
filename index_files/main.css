@@ -147,7 +147,8 @@ h4 {
 }
 
 .maintext {
-    display: block;
+    //display: block;
+    margin-top: 90px;
     margin-left: 23%;
     padding-left: 25px;
     padding-right: 25px;

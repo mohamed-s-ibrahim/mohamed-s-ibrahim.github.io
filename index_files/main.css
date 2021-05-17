@@ -57,6 +57,7 @@ h4 {
 
 .sidebar {
     width: 23%;
+    position: fixed;
     float: left;
     //padding: 15px 15px 0 30px;
     height: 100%;

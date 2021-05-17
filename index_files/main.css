@@ -5,6 +5,7 @@ html {
 
 body {
     font-family: 'Roboto', Helvetica, Arial, san-serif;
+    margin-top: 0px;
     width: 100%;
     overflow-x: hidden;
     overflow-y: visible;
@@ -66,6 +67,7 @@ h4 {
 .news_sidebar {
     width: 17%;
     float: right;
+    margin-top: 90px;
     padding: 15px 15px 0 30px;
     padding-right: 30px;
     height: 100%;
@@ -110,10 +112,14 @@ h4 {
 
 .topbar {
     display: block;
+    position: fixed;
     width: 100%;
-    height: 90px;
+    height: 50px;
     margin-left: 25%;
+    margin-top: 0px;
     padding: 15px 0 0 15px;
+    background-color: #ffccb3;
+    z-index: 500;
 }
 
 .topbar ul {
